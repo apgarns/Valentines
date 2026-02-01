@@ -3,21 +3,29 @@ let yesPressed = false;
 
 const phrases = [
   "No",
-  "¿Estás seguro?",
-  "¿De verdad seguro?",
+  "¿Estás segura?",
+  "¿De verdad segura?",
   "¡Piénsalo otra vez!",
+  "Te invito unos tacos ;((",
   "¡Última oportunidad!",
-  "¿Seguro que no?",
+  "¿Segura que no?",
   "¡Podrías arrepentirte!",
   "¡Dale otra pensada!",
-  "¿Estás completamente seguro?",
+  "¿Estás completamente segura?",
   "¡Esto podría ser un error!",
   "¡Ten corazón!",
-  "¡No seas tan frío/a!",
+  "POR FAVOR BEBE",
+  "¡No seas tan fría!",
+  "PERO :*(",
+  "Me voy a morir:",
   "¿Cambio de opinión?",
+  "Sip, ya me mori",
+  "Bueno, estas hablando con el fantasma de Alex",
   "¿No lo reconsiderarías?",
   "¿Esa es tu respuesta final?",
-  "Me estás rompiendo el corazón ;("
+  ":(((((",
+  "Me estás rompiendo el corazón ;(",
+  "No",
 ];
 
 const yesGif = "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
