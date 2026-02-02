@@ -1,14 +1,15 @@
 :root {
   --bg: #ffffff;
   --text: #111827;
-  --muted: #6b7280;
   --yes: #16a34a;
   --yesHover: #15803d;
   --no: #dc2626;
   --noHover: #b91c1c;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -28,15 +29,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 16px;
-  margin-top: -64px; /* parecido al -mt-16 */
+  margin-top: -64px;
   text-align: center;
 }
 
 .gif {
   height: 200px;
-  width: auto;
   user-select: none;
   -webkit-user-drag: none;
 }
@@ -49,7 +48,6 @@ body {
 
 .buttons {
   display: flex;
-  align-items: center;
   gap: 12px;
 }
 
@@ -61,23 +59,34 @@ body {
   border-radius: 10px;
   cursor: pointer;
   transition: transform 120ms ease, background-color 120ms ease;
-  user-select: none;
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
-.btn-yes { background: var(--yes); }
-.btn-yes:hover { background: var(--yesHover); }
+.btn-yes {
+  background: var(--yes);
+}
 
-.btn-no { background: var(--no); }
-.btn-no:hover { background: var(--noHover); }
+.btn-yes:hover {
+  background: var(--yesHover);
+}
+
+.btn-no {
+  background: var(--no);
+  position: relative;
+}
+
+.btn-no:hover {
+  background: var(--noHover);
+}
 
 .yay {
   font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
-  margin-top: 8px;
 }
 
-.hidden { display: none; }
+.hidden {
+  display: none;
+}
